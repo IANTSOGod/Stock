@@ -1,0 +1,9 @@
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/Stock.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/install.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/Stock_autogen_timestamp_deps.dir
+/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/Stock_autogen.dir
