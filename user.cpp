@@ -53,15 +53,28 @@ int User::authenticate (std::string name,std::string mdp){
             }
             std::string currentUsername=this->getUsername ();
             std::string currentPassword=this->getMdp();
-            if(currentUsername==name && currentPassword==mdp && currentUsername!="" && currentPassword!=""){
-                return 1;
-            }
-            else{
-                if(currentUsername==name && currentUsername!=""){
-                    return 2;
+            if(name=="" && mdp==""){
+                return 6;
+            }else {
+                if(name==""){
+                    return 4;
                 }
                 else{
-                    return 3;
+                    if(mdp==""){
+                        return 5;
+                    }else{
+                        if(currentUsername==name && currentPassword==mdp && currentUsername!="" && currentPassword!=""){
+                            return 1;
+                        }
+                        else{
+                            if(currentUsername==name && currentPassword!=mdp && currentUsername!="" && currentPassword!=""){
+                                return 2;
+                            }
+                            if(currentUsername!=name && currentUsername!=""){
+                                return 3;
+                            }
+                        }
+                    }
                 }
             }
         }

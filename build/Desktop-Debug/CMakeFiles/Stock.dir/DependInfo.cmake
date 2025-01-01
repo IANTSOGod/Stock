@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "Stock_autogen/timestamp" "custom" "Stock_autogen/deps"
+  "/home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp" "CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o" "gcc" "CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o.d"
   "/home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/mocs_compilation.cpp" "CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o.d"
   "/home/iantso/desktop_projects/Stock/databasemanager.cpp" "CMakeFiles/Stock.dir/databasemanager.cpp.o" "gcc" "CMakeFiles/Stock.dir/databasemanager.cpp.o.d"
   "/home/iantso/desktop_projects/Stock/logform.cpp" "CMakeFiles/Stock.dir/logform.cpp.o" "gcc" "CMakeFiles/Stock.dir/logform.cpp.o.d"

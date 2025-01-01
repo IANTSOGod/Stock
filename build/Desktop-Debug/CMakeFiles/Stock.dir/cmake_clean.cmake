@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Stock_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Stock_autogen.dir/ParseCache.txt"
   "Stock_autogen"
+  "CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o"
+  "CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o.d"
   "CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Stock.dir/databasemanager.cpp.o"
@@ -18,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Stock.dir/user.cpp.o.d"
   "Stock"
   "Stock.pdb"
+  "Stock_autogen/EWIEGA46WW/qrc_ressources.cpp"
   "Stock_autogen/mocs_compilation.cpp"
   "Stock_autogen/timestamp"
 )

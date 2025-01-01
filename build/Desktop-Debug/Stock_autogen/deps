@@ -11,6 +11,7 @@ Stock_autogen/timestamp: \
 	/home/iantso/desktop_projects/Stock/main.cpp \
 	/home/iantso/desktop_projects/Stock/mainwindow.cpp \
 	/home/iantso/desktop_projects/Stock/mainwindow.h \
+	/home/iantso/desktop_projects/Stock/ressources.qrc \
 	/home/iantso/desktop_projects/Stock/signform.cpp \
 	/home/iantso/desktop_projects/Stock/signform.h \
 	/home/iantso/desktop_projects/Stock/user.cpp \

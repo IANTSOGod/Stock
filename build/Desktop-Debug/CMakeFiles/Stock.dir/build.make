@@ -76,10 +76,18 @@ Stock_autogen/timestamp: CMakeFiles/Stock.dir/compiler_depend.ts
 	/usr/bin/cmake -E cmake_autogen /home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/Stock_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/timestamp
 
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp: /home/iantso/desktop_projects/Stock/ressources.qrc
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp: CMakeFiles/Stock_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Info.json
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp: /home/iantso/desktop_projects/Stock/assets/ill1.jpg
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp: /usr/lib64/qt6/libexec/rcc
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp: /usr/lib64/qt6/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for ressources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/Stock_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Info.json Debug
+
 CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o: Stock_autogen/mocs_compilation.cpp
 CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o -c /home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/mocs_compilation.cpp
 
 CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.i: cmake_force
@@ -93,7 +101,7 @@ CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/Stock.dir/main.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/main.cpp.o: /home/iantso/desktop_projects/Stock/main.cpp
 CMakeFiles/Stock.dir/main.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Stock.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Stock.dir/main.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/main.cpp.o -MF CMakeFiles/Stock.dir/main.cpp.o.d -o CMakeFiles/Stock.dir/main.cpp.o -c /home/iantso/desktop_projects/Stock/main.cpp
 
 CMakeFiles/Stock.dir/main.cpp.i: cmake_force
@@ -107,7 +115,7 @@ CMakeFiles/Stock.dir/main.cpp.s: cmake_force
 CMakeFiles/Stock.dir/mainwindow.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/mainwindow.cpp.o: /home/iantso/desktop_projects/Stock/mainwindow.cpp
 CMakeFiles/Stock.dir/mainwindow.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Stock.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Stock.dir/mainwindow.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/mainwindow.cpp.o -MF CMakeFiles/Stock.dir/mainwindow.cpp.o.d -o CMakeFiles/Stock.dir/mainwindow.cpp.o -c /home/iantso/desktop_projects/Stock/mainwindow.cpp
 
 CMakeFiles/Stock.dir/mainwindow.cpp.i: cmake_force
@@ -121,7 +129,7 @@ CMakeFiles/Stock.dir/mainwindow.cpp.s: cmake_force
 CMakeFiles/Stock.dir/logform.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/logform.cpp.o: /home/iantso/desktop_projects/Stock/logform.cpp
 CMakeFiles/Stock.dir/logform.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Stock.dir/logform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Stock.dir/logform.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/logform.cpp.o -MF CMakeFiles/Stock.dir/logform.cpp.o.d -o CMakeFiles/Stock.dir/logform.cpp.o -c /home/iantso/desktop_projects/Stock/logform.cpp
 
 CMakeFiles/Stock.dir/logform.cpp.i: cmake_force
@@ -135,7 +143,7 @@ CMakeFiles/Stock.dir/logform.cpp.s: cmake_force
 CMakeFiles/Stock.dir/signform.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/signform.cpp.o: /home/iantso/desktop_projects/Stock/signform.cpp
 CMakeFiles/Stock.dir/signform.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Stock.dir/signform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Stock.dir/signform.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/signform.cpp.o -MF CMakeFiles/Stock.dir/signform.cpp.o.d -o CMakeFiles/Stock.dir/signform.cpp.o -c /home/iantso/desktop_projects/Stock/signform.cpp
 
 CMakeFiles/Stock.dir/signform.cpp.i: cmake_force
@@ -149,7 +157,7 @@ CMakeFiles/Stock.dir/signform.cpp.s: cmake_force
 CMakeFiles/Stock.dir/databasemanager.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/databasemanager.cpp.o: /home/iantso/desktop_projects/Stock/databasemanager.cpp
 CMakeFiles/Stock.dir/databasemanager.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Stock.dir/databasemanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Stock.dir/databasemanager.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/databasemanager.cpp.o -MF CMakeFiles/Stock.dir/databasemanager.cpp.o.d -o CMakeFiles/Stock.dir/databasemanager.cpp.o -c /home/iantso/desktop_projects/Stock/databasemanager.cpp
 
 CMakeFiles/Stock.dir/databasemanager.cpp.i: cmake_force
@@ -163,7 +171,7 @@ CMakeFiles/Stock.dir/databasemanager.cpp.s: cmake_force
 CMakeFiles/Stock.dir/user.cpp.o: CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/user.cpp.o: /home/iantso/desktop_projects/Stock/user.cpp
 CMakeFiles/Stock.dir/user.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Stock.dir/user.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Stock.dir/user.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/user.cpp.o -MF CMakeFiles/Stock.dir/user.cpp.o.d -o CMakeFiles/Stock.dir/user.cpp.o -c /home/iantso/desktop_projects/Stock/user.cpp
 
 CMakeFiles/Stock.dir/user.cpp.i: cmake_force
@@ -174,6 +182,20 @@ CMakeFiles/Stock.dir/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/user.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iantso/desktop_projects/Stock/user.cpp -o CMakeFiles/Stock.dir/user.cpp.s
 
+CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o: CMakeFiles/Stock.dir/flags.make
+CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o: Stock_autogen/EWIEGA46WW/qrc_ressources.cpp
+CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o -MF CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o.d -o CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o -c /home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp
+
+CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp > CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+
+CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iantso/desktop_projects/Stock/build/Desktop-Debug/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp -o CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+
 # Object files for target Stock
 Stock_OBJECTS = \
 "CMakeFiles/Stock.dir/Stock_autogen/mocs_compilation.cpp.o" \
@@ -182,7 +204,8 @@ Stock_OBJECTS = \
 "CMakeFiles/Stock.dir/logform.cpp.o" \
 "CMakeFiles/Stock.dir/signform.cpp.o" \
 "CMakeFiles/Stock.dir/databasemanager.cpp.o" \
-"CMakeFiles/Stock.dir/user.cpp.o"
+"CMakeFiles/Stock.dir/user.cpp.o" \
+"CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o"
 
 # External object files for target Stock
 Stock_EXTERNAL_OBJECTS =
@@ -194,6 +217,7 @@ Stock: CMakeFiles/Stock.dir/logform.cpp.o
 Stock: CMakeFiles/Stock.dir/signform.cpp.o
 Stock: CMakeFiles/Stock.dir/databasemanager.cpp.o
 Stock: CMakeFiles/Stock.dir/user.cpp.o
+Stock: CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o
 Stock: CMakeFiles/Stock.dir/build.make
 Stock: /usr/lib64/libQt6Widgets.so.6.7.2
 Stock: /usr/lib64/libQt6Gui.so.6.7.2
@@ -201,7 +225,7 @@ Stock: /usr/lib64/libQt6Core.so.6.7.2
 Stock: /usr/lib64/libGLX.so
 Stock: /usr/lib64/libOpenGL.so
 Stock: CMakeFiles/Stock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Stock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Stock"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Stock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,6 +236,7 @@ CMakeFiles/Stock.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Stock.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Stock.dir/clean
 
+CMakeFiles/Stock.dir/depend: Stock_autogen/EWIEGA46WW/qrc_ressources.cpp
 CMakeFiles/Stock.dir/depend: Stock_autogen/timestamp
 	cd /home/iantso/desktop_projects/Stock/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iantso/desktop_projects/Stock /home/iantso/desktop_projects/Stock /home/iantso/desktop_projects/Stock/build/Desktop-Debug /home/iantso/desktop_projects/Stock/build/Desktop-Debug /home/iantso/desktop_projects/Stock/build/Desktop-Debug/CMakeFiles/Stock.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Stock.dir/depend

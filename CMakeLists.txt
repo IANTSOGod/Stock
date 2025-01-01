@@ -15,7 +15,6 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 # Ajouter les répertoires pour MySQL Connector C++
 include_directories(/usr/include/mysql-cppconn)  # Répertoire d'en-têtes de MySQL Connector C++
-
 # Lier la bibliothèque MySQL Connector C++ (mysqlcppconnx)
 link_directories(/usr/lib64)  # Répertoire des bibliothèques partagées
 
@@ -34,6 +33,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         signform.h signform.cpp
         databasemanager.h databasemanager.cpp
         user.h user.cpp
+        ressources.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Stock APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

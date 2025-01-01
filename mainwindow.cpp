@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QString>
+#include <QPixmap>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -8,6 +9,17 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     ui->authentificationStack->setCurrentIndex (0);
+    ui->ErrorUsername->setHidden(true);
+    ui->ErrorPassword->setHidden(true);
+    ui->ErrorUsernameSP->setHidden(true);
+    ui->ErrorPasswordSP->setHidden(true);
+    ui->ErrorAge->setHidden(true);
+    QPixmap image(":/assets/ill1.jpg"); // Remplacez par le chemin de votre image
+    if (image.isNull()) {
+        ui->imageLabel1->setText("Impossible de charger l'image !");
+    } else {
+        ui->imageLabel1->setPixmap(image.scaled(480, 480)); // Ajuste la taille
+    }
 }
 
 MainWindow::~MainWindow()
@@ -32,11 +44,24 @@ void MainWindow::on_LoginButton_clicked()
         }
         else{
             if (use==3){
-                std::cout<<"User not found";
+                ui->ErrorUsername->setHidden(false);
+                ui->UsernameInput->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;border-radius: 20px;");
             }
             else if(use==2){
-                std::cout<<"Password incorrect";
+                ui->ErrorPassword->setHidden(false);
+                ui->PasswordInput->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;border-radius: 20px;");
             }
+        }
+    }else{
+        if(currentUsername==""){
+            ui->ErrorUsername->setHidden(false);
+            ui->ErrorUsername->setText ("Champ vide");
+            ui->UsernameInput->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;border-radius: 20px;");
+        }
+        if(currentPassword==""){
+            ui->ErrorPassword->setHidden(false);
+            ui->ErrorPassword->setText ("Champ vide");
+            ui->PasswordInput->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;border-radius: 20px;");
         }
     }
 }
@@ -102,6 +127,21 @@ void MainWindow::on_createBtn_clicked()
     std::string currentRole=this->signform.getRole ();
     if(currentUsername!="" && currentPassword!="" && currentRole!="" && currentAge>19){
         this->user.create (currentUsername,currentPassword,currentAge,currentRole);
+    }else{
+        if(currentUsername==""){
+            ui->ErrorUsernameSP->setHidden(false);
+            ui->ErrorUsernameSP->setText ("Champ vide");
+            ui->UsernameInputSP->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;border-radius: 20px;");
+        }
+        if(currentPassword==""){
+            ui->ErrorPasswordSP->setHidden(false);
+            ui->ErrorPasswordSP->setText ("Champ vide");
+            ui->PasswordInputSP->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;border-radius: 20px;");
+        }
+        if(currentAge<19){
+            ui->ErrorAge->setHidden(false);
+            ui->AgespinBox->setStyleSheet ("border: 5px solid rgb(237, 51, 59);font: 14pt 'CaskaydiaCove Nerd Font Propo';padding-top: 5px;padding-left: 5px;");
+        }
     }
 }
 

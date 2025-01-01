@@ -32,6 +32,7 @@ public:
     QWidget *loginPage;
     QListView *form;
     QFrame *imageFrame;
+    QLabel *imageLabel1;
     QLabel *startLabel;
     QTextEdit *UsernameInput;
     QTextEdit *PasswordInput;
@@ -39,6 +40,8 @@ public:
     QLabel *Label2;
     QPushButton *LoginButton;
     QPushButton *SignUpButton;
+    QLabel *ErrorUsername;
+    QLabel *ErrorPassword;
     QWidget *signupPage;
     QListView *signupFORM;
     QFrame *imageFrame_2;
@@ -53,6 +56,9 @@ public:
     QPushButton *cancelBtn;
     QComboBox *roleCombo;
     QSpinBox *AgespinBox;
+    QLabel *ErrorUsernameSP;
+    QLabel *ErrorPasswordSP;
+    QLabel *ErrorAge;
     QWidget *HomePage;
 
     void setupUi(QMainWindow *MainWindow)
@@ -83,6 +89,9 @@ public:
 "border-radius: 50px;"));
         imageFrame->setFrameShape(QFrame::Shape::StyledPanel);
         imageFrame->setFrameShadow(QFrame::Shadow::Raised);
+        imageLabel1 = new QLabel(imageFrame);
+        imageLabel1->setObjectName("imageLabel1");
+        imageLabel1->setGeometry(QRect(30, 70, 480, 480));
         startLabel = new QLabel(loginPage);
         startLabel->setObjectName("startLabel");
         startLabel->setGeometry(QRect(1190, 230, 241, 51));
@@ -137,6 +146,16 @@ public:
 "QPushButton:hover{\n"
 "border: 5px solid rgb(192, 191, 188);\n"
 "}"));
+        ErrorUsername = new QLabel(loginPage);
+        ErrorUsername->setObjectName("ErrorUsername");
+        ErrorUsername->setGeometry(QRect(1080, 430, 351, 18));
+        ErrorUsername->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
+"color: rgb(237, 51, 59);"));
+        ErrorPassword = new QLabel(loginPage);
+        ErrorPassword->setObjectName("ErrorPassword");
+        ErrorPassword->setGeometry(QRect(1080, 560, 351, 18));
+        ErrorPassword->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
+"color: rgb(237, 51, 59);"));
         authentificationStack->addWidget(loginPage);
         signupPage = new QWidget();
         signupPage->setObjectName("signupPage");
@@ -183,7 +202,7 @@ public:
 "color: rgb(255, 255, 255);"));
         Label4 = new QLabel(signupPage);
         Label4->setObjectName("Label4");
-        Label4->setGeometry(QRect(550, 390, 241, 51));
+        Label4->setGeometry(QRect(550, 410, 241, 31));
         Label4->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "font: 16pt \"CaskaydiaCove Nerd Font Propo\";\n"
 "color: rgb(255, 255, 255);"));
@@ -232,6 +251,21 @@ public:
         AgespinBox->setObjectName("AgespinBox");
         AgespinBox->setGeometry(QRect(550, 580, 191, 51));
         AgespinBox->setStyleSheet(QString::fromUtf8("font: 16pt \"CaskaydiaCove Nerd Font Propo\";"));
+        ErrorUsernameSP = new QLabel(signupPage);
+        ErrorUsernameSP->setObjectName("ErrorUsernameSP");
+        ErrorUsernameSP->setGeometry(QRect(550, 390, 141, 18));
+        ErrorUsernameSP->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
+"color: rgb(237, 51, 59);"));
+        ErrorPasswordSP = new QLabel(signupPage);
+        ErrorPasswordSP->setObjectName("ErrorPasswordSP");
+        ErrorPasswordSP->setGeometry(QRect(550, 510, 191, 18));
+        ErrorPasswordSP->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
+"color: rgb(237, 51, 59);"));
+        ErrorAge = new QLabel(signupPage);
+        ErrorAge->setObjectName("ErrorAge");
+        ErrorAge->setGeometry(QRect(550, 640, 191, 18));
+        ErrorAge->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
+"color: rgb(237, 51, 59);"));
         authentificationStack->addWidget(signupPage);
         HomePage = new QWidget();
         HomePage->setObjectName("HomePage");
@@ -246,6 +280,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        imageLabel1->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         startLabel->setText(QCoreApplication::translate("MainWindow", "Login here", nullptr));
         UsernameInput->setPlaceholderText(QCoreApplication::translate("MainWindow", "Entrez votre username ici", nullptr));
         PasswordInput->setPlaceholderText(QCoreApplication::translate("MainWindow", "Entrez votre mot de passe ici", nullptr));
@@ -253,6 +288,8 @@ public:
         Label2->setText(QCoreApplication::translate("MainWindow", "Password", nullptr));
         LoginButton->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
         SignUpButton->setText(QCoreApplication::translate("MainWindow", "Sign Up", nullptr));
+        ErrorUsername->setText(QCoreApplication::translate("MainWindow", "Utilisateur non trouv\303\251", nullptr));
+        ErrorPassword->setText(QCoreApplication::translate("MainWindow", "Mot de passe incorrect", nullptr));
         startLabel_2->setText(QCoreApplication::translate("MainWindow", "Sign Up here", nullptr));
         UsernameInputSP->setPlaceholderText(QCoreApplication::translate("MainWindow", "Entrez votre username ici", nullptr));
         PasswordInputSP->setPlaceholderText(QCoreApplication::translate("MainWindow", "Entrez votre password ici", nullptr));
@@ -265,6 +302,9 @@ public:
         roleCombo->setItemText(0, QCoreApplication::translate("MainWindow", "Admin", nullptr));
         roleCombo->setItemText(1, QCoreApplication::translate("MainWindow", "Cashier", nullptr));
 
+        ErrorUsernameSP->setText(QCoreApplication::translate("MainWindow", "User not found", nullptr));
+        ErrorPasswordSP->setText(QCoreApplication::translate("MainWindow", "Password incorrect", nullptr));
+        ErrorAge->setText(QCoreApplication::translate("MainWindow", "Age invalide", nullptr));
     } // retranslateUi
 
 };

@@ -200,6 +200,30 @@ Stock_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock_autogen.dir/build.make CMakeFiles/Stock_autogen.dir/build
 .PHONY : Stock_autogen/fast
 
+Stock_autogen/EWIEGA46WW/qrc_ressources.o: Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o
+.PHONY : Stock_autogen/EWIEGA46WW/qrc_ressources.o
+
+# target to build an object file
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o
+.PHONY : Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.o
+
+Stock_autogen/EWIEGA46WW/qrc_ressources.i: Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+.PHONY : Stock_autogen/EWIEGA46WW/qrc_ressources.i
+
+# target to preprocess a source file
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+.PHONY : Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+
+Stock_autogen/EWIEGA46WW/qrc_ressources.s: Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+.PHONY : Stock_autogen/EWIEGA46WW/qrc_ressources.s
+
+# target to generate assembly for a file
+Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+.PHONY : Stock_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+
 Stock_autogen/mocs_compilation.o: Stock_autogen/mocs_compilation.cpp.o
 .PHONY : Stock_autogen/mocs_compilation.o
 
@@ -383,6 +407,9 @@ help:
 	@echo "... Stock_autogen"
 	@echo "... Stock_autogen_timestamp_deps"
 	@echo "... Stock"
+	@echo "... Stock_autogen/EWIEGA46WW/qrc_ressources.o"
+	@echo "... Stock_autogen/EWIEGA46WW/qrc_ressources.i"
+	@echo "... Stock_autogen/EWIEGA46WW/qrc_ressources.s"
 	@echo "... Stock_autogen/mocs_compilation.o"
 	@echo "... Stock_autogen/mocs_compilation.i"
 	@echo "... Stock_autogen/mocs_compilation.s"

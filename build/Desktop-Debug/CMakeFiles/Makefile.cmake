@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   ".qtc/package-manager/auto-setup.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeSystem.cmake"
+  "/home/iantso/desktop_projects/Stock/ressources.qrc"
   "/usr/lib64/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
   "/usr/lib64/cmake/Qt6/FindWrapAtomic.cmake"
   "/usr/lib64/cmake/Qt6/FindWrapOpenGL.cmake"
@@ -263,6 +264,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/Stock_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/Stock_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Info.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
